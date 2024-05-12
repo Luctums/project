@@ -1,0 +1,6 @@
+def sort_descending(lst):
+    return sorted(lst, reverse=True)
+
+my_list = [7, 2, 9, 4, 1]
+sorted_list = sort_descending(my_list)
+print(sorted_list)  # Output: [9, 7, 4, 2, 1]
